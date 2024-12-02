@@ -326,5 +326,46 @@ body{
 }
 
 @media only screen and (min-width: 1000px){
-
+    footer{
+        background-color: #01728c;
+    }
+    .connect{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .connect h1, p {
+        width: 100%;
+    }
+    .socials{
+        align-items: flex-start;
+        padding: 0 2rem;
+        margin:0;
+    }
+    .socials h1{
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+        font-family: lightFont;
+    }
+    .socials div{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .socials div a{
+        margin: 0;
+        padding: 5px;
+        background-color: #8fc3d4;
+        border-radius: 50px;
+    }
+    .socials div a i{
+        font-size: 35px;
+    }
+    .socials p{
+        align-self: center;
+        margin-top: 2rem;
+    }
 }
